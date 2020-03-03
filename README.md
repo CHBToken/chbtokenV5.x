@@ -111,13 +111,13 @@ To ensure each user knows the upfront cost of a document upload / signing a fixe
 
 Document sizes and fees
 
-| Document Size | Upload & Signing Fee| Cost in CHBToken |
-| ------ | ------ | ------ |
-| < 10 MB | 5 EUR | Day rate |
-| > 10 MB | 5 EUR | Day rate |
-| > 20 MB | 5 EUR | Day rate |
-| > 30 MB | 5 EUR | Day rate |
-| > 40 MB | 5 EUR | Day rate |
+| Document Size | Sign Only | Upload & Signing Fee| Cost in CHBToken |
+| ------ | ------ | ------ | ------ |
+| < 10 MB | 5 EUR | 10 EUR | Day rate |
+| > 10 MB | 5 EUR | 15 EUR | Day rate |
+| > 20 MB | 5 EUR | 20 EUR | Day rate |
+| > 30 MB | 5 EUR | 25 EUR | Day rate |
+| > 40 MB | 5 EUR | 30 EUR | Day rate |
 
 Document sizes are limited to a maximum of 1000MB per document
 
