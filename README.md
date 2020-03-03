@@ -121,7 +121,7 @@ To ensure each user knows the upfront cost of a document upload / signing a fixe
 
 1.  The fees to sign and upload are set at a fixed rate of 5 EUR per 10MB document per year (after the initial 10MB file size).
 2.  Users can choose between 1 and 10 years storage for documents within CHBToken.
-3.  Fees are deducted driectly as CHBToken from within the User's Wallet.
+3.  Fees are deducted directly as CHBToken from within the User's Wallet.
 
 `After the selected time period ends documents are automatically removed unless the user chooses to renew the document for a new storage period`
 
