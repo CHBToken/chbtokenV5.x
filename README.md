@@ -83,6 +83,11 @@ Should the Wallet still not connect after the above you should ensure the CHBTok
 
 Bug fixes in CHBToken 5.0.0.0
 ===========================
+**Bug Fixes**
+Version 5.0.0.0 contains various bug fixes on text, images and functionalities.
+
+New functions in CHBToken 5.0.0.0
+===========================
 For latest information and new features please check https://chbt.ch, however in a nutshell the following features are new to V5.0.0.0
 1. File Signing 
 2. File Signing & Upload
@@ -101,11 +106,6 @@ For latest information and new features please check https://chbt.ch, however in
 14. Additional high encryption of 1MB key for uploaded files
 15. Additional password & encryption for file sharing on files
 
-**Bug Fixes**
-Version 5.0.0.0 contains various bug fixes on text, images and functionalities.
-
-New functions in CHBToken 5.0.0.0
-===========================
 **Document Upload**
 
 CHBToken as of version 5.0.0.0 allows users to upload documents directly from the wallet in an encrypted format to be shared with others.
