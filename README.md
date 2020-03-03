@@ -2,9 +2,10 @@ CHBToken 5.0.0.0 & CHBTokenDoc
 ===========================
 
 *  CHBToken is a PoS-based cryptocurrency.
-*  CHBTokenDoc is a secure document upload system with document storage and high security encryption.
-*  CHBTokenDoc provides an option to cryptographically sign and store encrypted documents on the CHBTokenDoc Blockchain utilizing a 1MB encryption key and verification hash.
+*  CHBToken is a secure document upload system with document storage and high security encryption.
+*  CHBToken provides an option to cryptographically sign and store encrypted documents on the CHBToken Blockchain utilizing a 1MB encryption key and verification hash.
 *  CHBToken offers an option for companies to run CHBTokenDoc internally while still allowing the public CHBToken to remain decentrally linked.
+*  CHBToken allows file upload of up to 1000MB.
  
 This Github contains only the source code for CHBToken. It does not contain the source code for CHBTokenDoc.
 For CHBTokenDoc please refer to the section below specifically for companies.
@@ -29,58 +30,6 @@ CHBToken 5.0.0.0 Source Code and Windows Wallet
 **The Windows Wallet CHBTLauncher is available for download on:** https://github.com/CHBToken/CHBTokenV5_Wallet
 
 **Official Website:** https://chbt.ch
-
-CHBToken Update from V4.7.5 to V5.0.0.0
-===========================
-* 1.) Download latest version from GitHub: https://github.com/CHBToken/CHBTokenV5_Wallet
-* 2.) Backup your Wallet.dat file and store it securly
-* 3.) Run the CHBTLauncher, this will install the new V5.0.0.0 on your PC
-* 4.) Start the CHBToken wallet V5.0.0.0 and let it sync
-
-After successful installation and synchronisation you are ready to use the new wallet.
-
-**NOTE:** 
-The CHBTLauncher is for windows systems only. 
-
-CHBToken V5.0.0.0 Future Updates
-===========================
-As of Version 5.0.0.0 the CHBToken Wallet checks automatically for a new version on Wallet start up. Should there be a new version available it will 
-automatically download the new update and install it. Once the new update is installed the Wallet will start and can be use as normal.
-The automatic update function is for windows wallet only. 
-
-CHBToken Exchanges
-===========================
-Exchanges can download the source code and build their own wallet, the CHBTokenDoc part is not needed.
-
-**The following is needed:**
-
- Library     Purpose           Description
- -------     -------           -----------
- * libssl      SSL Support       Secure communications
- * libdb       Berkeley DB       Blockchain & wallet storage
- * libboost    Boost             C++ Library
- * miniupnpc   UPnP Support      Optional firewall-jumping support
- * libqrencode QRCode generation Optional QRCode generation
-
-**Versions used in this release:**
-* Boost 1.59.0
-* Berkeley DB 4.8.30.NC
-* PNG Lib Ref 1.6.16
-* miniupnpc 1.9
-* OpenSSL 1.0.1j
-* Prot Buffer 2.6.1
-* QT 5.9.1
-* Grencode 3.4.4
-
-More information within the doc folder. 
-
-CHBToken Linux Wallet
-===========================
-You can build your own linux wallet if you wish to do so. The linux wallet does not include the CHBTokenDoc functionality.
-
-CHBToken iOS Wallet
-===========================
-At the present moment we do not supply a iOS wallet. This wallet we may supply at a later stage.
 
 Can I mine CHBToken?
 ============================
@@ -135,28 +84,10 @@ Should the Wallet still not connect after the above you should ensure the CHBTok
 Bug fixes in CHBToken 5.0.0.0
 ===========================
 **Bug Fixes**
-> **Version 5.0.0.0 contains various bug fixes on text, images and functionalities.**
+Version 5.0.0.0 contains various bug fixes on text, images and functionalities.
 
 New functions in CHBToken 5.0.0.0
 ===========================
-For latest information and new features please check https://chbt.ch, however in a nutshell the following features are new to V5.0.0.0
-1. File Signing 
-2. File Signing & Upload
-3. File Encryption on uploaded files
-4. File Sharing on uploaded files
-5. In-Wallet file explorer on signed files
-6. Certificate on signed files
-7. Verification explorer for signed files
-8. CHBT Trust Authority
-9. In Wallet direct purchase over credit card
-10. New CHBTokenDoc chain for online file storage for up to 1000MB per file
-11. Autoupdate feature
-12. New local file structure for signed files within appdata
-13. Option to open / browse signed files from the wallet
-13. Additional readme section within the wallet
-14. Additional high encryption of 1MB key for uploaded files
-15. Additional password & encryption for file sharing on files
-
 **Document Upload**
 
 CHBToken as of version 5.0.0.0 allows users to upload documents directly from the wallet in an encrypted format to be shared with others.
@@ -180,35 +111,35 @@ To ensure each user knows the upfront cost of a document upload / signing a fixe
 
 Document sizes and fees
 
-| Document Size | Sign Only | Upload & Signing Fee| Cost in CHBToken |
-| ------ | ------ | ------ | ------ |
-| < 10 MB | 5 EUR | 10 EUR | Day rate |
-| > 10 MB | 10 EUR | 15 EUR | Day rate |
-| > 20 MB | 15 EUR | 20 EUR | Day rate |
-| > 30 MB | 20 EUR | 25 EUR | Day rate |
-| > 40 MB | 25 EUR | 30 EUR | Day rate |
+| Document Size | Upload & Signing Fee| Cost in CHBToken |
+| ------ | ------ | ------ |
+| < 10 MB | 5 EUR | Day rate |
+| > 10 MB | 5 EUR | Day rate |
+| > 20 MB | 5 EUR | Day rate |
+| > 30 MB | 5 EUR | Day rate |
+| > 40 MB | 5 EUR | Day rate |
 
 Document sizes are limited to a maximum of 1000MB per document
 
-**Example of cost of a 10 MB document signing within CHBToken**
+**Example of cost of a 10 MB document upload within CHBToken**
 
 We assume for this example following:
 - CHBToken price on an exchange is 2.00 USD per CHBToken
-- CHBTokenDoc fee is 5 USD per 10MB for Signing only
+- CHBTokenDoc fee is 5 USD per 10MB
 - Size of Document < 10MB
 
 
-| Document Size | Price of CHBToken | Cost of Document Signing | Cost in CHBToken | Standard TRX Fee of CHBToken |
+| Document Size | Price of CHBToken | Cost of Document Upload | Cost in CHBToken | Standard TRX Fee of CHBToken |
 | ------ | ------ | ------ | ------ | ------ |
 | < 10 MB | 2.00 EUR | 5 EUR | 2.5 CHBToken |  0.0001 CHBToken |
 
-So, to signing a document with a size < 10MB the cost is 2.5001 CHBToken which is directly deducted from the user's wallet. 
+So, to upload a document with a size < 10MB the cost is 2.5001 CHBToken which is directly deducted from the user's wallet. 
 
 The fiat cost is a function of the current CHBToken price and the transaction fee e.g.
 
-5.00 EUR (for signing document  < 10mb ) + Transaction fee of CHBToken (0.0001)
+5.00 EUR (for document  < 10mb ) + Transaction fee of CHBToken (0.0001)
 
-The EUR fee for the document signing is converted to the CHBToken price. 
+The EUR fee for the document upload is converted to the CHBToken price. 
 
 This way user always knows that the cost in fiat is 5.00 EUR regardless of the current CHBToken price.
 
@@ -218,10 +149,10 @@ This way user always knows that the cost in fiat is 5.00 EUR regardless of the c
 The secondary chain (CHBTokenDoc) has been developed by the CHBToken Developers and is running as a separate chain to the CHBToken chain to avoid bloat within CHBToken.
 
 * CHBToken remains a PoS coin with decentralised approach.
-* The secondary CHBTokenDoc chain is set to a maximum of 1000MB per file upload.
+* The secondary CHBTokenDoc chain has no size limit but is set to a maximum of 1000MB per Document upload.
 * Each user has their own private encryption key and public keys are stored on the public key server.
->  NOTE: If a private key is lost then there is no way to recover this key
 
+NOTE: If a private key is lost then there is no way to recover this key
 
 Is there an Explorer for CHBToken?
 ===========================
@@ -264,7 +195,6 @@ We would provide you with access to the CHBTokenDoc source code along with the f
 *  API documentation
 *  Access to the 1MB encryption functionality
 *  4 hrs online support (via phone or other medium such as skype) to set up CHBTokenDoc within your company
-*  Full rights to modify CHBTokenDoc and CHBToken to suit your needs
  
 The cost for an internal CHBTokenDoc License and right to use it without limitation within your company can be requested by using the contact form on https://chbt.ch.
 
