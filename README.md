@@ -5,7 +5,7 @@ CHBToken 5.0.0.0 & CHBTokenDoc
 *  CHBToken is a secure document upload system with document storage and high security encryption.
 *  CHBToken provides an option to cryptographically sign and store encrypted documents on the CHBToken Blockchain utilizing a 1MB encryption key and verification hash.
 *  CHBToken offers an option for companies to run CHBTokenDoc internally while still allowing the public CHBToken to remain decentrally linked.
-*  CHBToken allows file upload of up to 1000MB.
+*  CHBToken allows file upload of up to 1000MB per file.
  
 This Github contains only the source code for CHBToken. It does not contain the source code for CHBTokenDoc.
 For CHBTokenDoc please refer to the section below specifically for companies.
@@ -83,6 +83,24 @@ Should the Wallet still not connect after the above you should ensure the CHBTok
 
 Bug fixes in CHBToken 5.0.0.0
 ===========================
+For latest information and new features please check https://chbt.ch, however in a nutshell the following features are new to V5.0.0.0
+1. File Signing 
+2. File Signing & Upload
+3. File Encryption on uploaded files
+4. File Sharing on uploaded files
+5. In-Wallet file explorer on signed files
+6. Certificate on signed files
+7. Verification explorer for signed files
+8. CHBT Trust Authority
+9. In Wallet direct purchase over credit card
+10. New CHBTokenDoc chain for online file storage for up to 1000MB per file
+11. Autoupdate feature
+12. New local file structure for signed files within appdata
+13. Option to open / browse signed files from the wallet
+13. Additional readme section within the wallet
+14. Additional high encryption of 1MB key for uploaded files
+15. Additional password & encryption for file sharing on files
+
 **Bug Fixes**
 Version 5.0.0.0 contains various bug fixes on text, images and functionalities.
 
@@ -101,7 +119,7 @@ CHBToken as of version 5.0.0.0 allows users to upload documents directly from th
 
 To ensure each user knows the upfront cost of a document upload / signing a fixed fee has been indroduced.
 
-1.  The fees to sign and upload are set at a fixed rate of 5 EUR per 10MB document per year.
+1.  The fees to sign and upload are set at a fixed rate of 5 EUR per 10MB document per year (after the initial 10MB file size).
 2.  Users can choose between 1 and 10 years storage for documents within CHBToken.
 3.  Fees are deducted driectly as CHBToken from within the User's Wallet.
 
