@@ -1,14 +1,14 @@
-CHBToken 5.0.0.0 & CHBTokenDoc
+CHBToken 5.0.0.0 & CHBTPaygate
 ===========================
 
 *  CHBToken is a PoS-based cryptocurrency.
 *  CHBToken is a secure document upload system with document storage and high security encryption.
-*  CHBToken provides an option to cryptographically sign and store encrypted documents on the CHBToken Blockchain utilizing a 1MB encryption key and verification hash.
-*  CHBToken offers an option for companies to run CHBTokenDoc internally while still allowing the public CHBToken to remain decentrally linked.
+*  CHBToken with CHBTPaygate provides an option to cryptographically sign and store encrypted documents on the CHBToken Blockchain utilizing a 1MB encryption key and verification hash.
+*  CHBToken offers an option for companies to run CHBTPaygate internally while still allowing the public CHBToken to remain decentrally linked.
 *  CHBToken allows file upload of up to 1000MB per file.
  
-This Github contains only the source code for CHBToken. It does not contain the source code for CHBTokenDoc.
-For CHBTokenDoc please refer to the section below specifically for companies.
+This Github contains only the source code for CHBToken. It does not contain the source code for CHBTPaygate.
+For CHBTPaygate please refer to the section below specifically for companies.
 
 CHBToken Overview
 ===========================
@@ -98,7 +98,7 @@ For latest information and new features please check https://chbt.ch, however in
 7. Verification explorer for signed files
 8. CHBT Trust Authority
 9. In Wallet direct purchase over credit card
-10. New CHBTokenDoc chain for online file storage for up to 1000MB per file
+10. New CHBTPaygate chain for online file storage for up to 1000MB per file
 11. Autoupdate feature
 12. New local file structure for signed files within appdata
 13. Option to open / browse signed files from the wallet
@@ -139,11 +139,11 @@ Document sizes and fees
 
 Document sizes are limited to a maximum of 1000MB per document
 
-**Example of cost of a 10 MB document upload within CHBToken**
+**Example of cost of a 10 MB document upload within CHBToken Wallet**
 
 We assume for this example following:
 - CHBToken price on an exchange is 2.00 USD per CHBToken
-- CHBTokenDoc fee is 5 USD per 10MB
+- CHBTPaygate fee is 5 USD per 10MB
 - Size of Document < 10MB
 
 
@@ -162,12 +162,12 @@ The EUR fee for the document upload is converted to the CHBToken price.
 This way user always knows that the cost in fiat is 5.00 EUR regardless of the current CHBToken price.
 
 
-**CHBToken has a secondary chain (CHBTokenDoc) included**
+**CHBToken has a secondary chain (CHBTPaygate) included**
 
-The secondary chain (CHBTokenDoc) has been developed by the CHBToken Developers and is running as a separate chain to the CHBToken chain to avoid bloat within CHBToken.
+The secondary chain (CHBTPaygate) has been developed by the CHBToken Developers and is running as a separate chain to the CHBToken chain to avoid bloat within CHBToken.
 
 * CHBToken remains a PoS coin with decentralised approach.
-* The secondary CHBTokenDoc chain has no size limit but is set to a maximum of 1000MB per Document upload.
+* The secondary CHBTPaygate chain has no size limit but is set to a maximum of 1000MB per Document upload.
 * Each user has their own private encryption key and public keys are stored on the public key server.
 
 NOTE: If a private key is lost then there is no way to recover this key
@@ -183,7 +183,7 @@ You can obtain CHBToken via the following options:
 * [Y]  By receiving CHBToken from another person directly into your CHBToken Wallet
 * [Y]  By Staking CHBToken within your Wallet. A sucessfull stake provides a reward of 0.06 CHBToken
 * [Y]  By purchasing CHBTokens at a fixed rate directly from within the walled using your credit card.
-When purchasing CHBTokenDoc tokens you will receive an EUR invoice.
+When purchasing CHBTPaygate tokens you will receive an EUR invoice.
 
 What is the Transaction Fee?
 ===========================
@@ -191,33 +191,33 @@ CHBToken carries a minimum transaction fee of 0.0001 CHBToken for each transacti
 
 This transaction fee goes back to CHBToken to support the CHBToken Chain.
 
-Where does the cost for CHBTokenDoc insertion go?
+Where does the cost for CHBTPaygate insertion go?
 ===========================
-The fees for CHBTokenDoc document insertion are used for:
+The fees for CHBTPaygate document insertion are used for:
 *  Supporting server hosting costs
 *  Maintaining server infrastructure
 *  Supporting future development
 *  Supporting running cost for the CHBToken Company
 *  Provide an income to the CHBToken developers
  
-The fees for CHBTokenDoc are not burned and are used as described above.
+The fees for CHBTPaygate are not burned and are used as described above.
 
 Companies
 ===========================
 
-If your company would like to operate your own internal version of CHBTokenDoc for your document storage needs, we can provide the following options:
+If your company would like to operate your own internal version of CHBTPaygate for your document storage needs, we can provide the following options:
 
-We would provide you with access to the CHBTokenDoc source code along with the following information:
-*  Access to the Github Repository of CHBTokenDoc
+We would provide you with access to the CHBTPaygate source code along with the following information:
+*  Access to the Github Repository of CHBTPaygate
 *  Install and setup instructions
 *  API documentation
 *  Access to the 1MB encryption functionality
-*  4 hrs online support (via phone or other medium such as skype) to set up CHBTokenDoc within your company
+*  4 hrs online support (via phone or other medium such as skype) to set up CHBTPaygate within your company
  
-The cost for an internal CHBTokenDoc License and right to use it without limitation within your company can be requested by using the contact form on https://chbt.ch.
+The cost for an internal CHBTPaygate License and right to use it without limitation within your company can be requested by using the contact form on https://chbt.ch.
 
-An internal usage licence however does not grant you the right to repackage, resell or otherwise redistribute CHBTokenDoc as your own.
-You can however fully customise it to fit your internal needs. This means that you can also customize CHBToken to link into your internal CHBTokenDoc solution.
+An internal usage licence however does not grant you the right to repackage, resell or otherwise redistribute CHBTPaygate as your own.
+You can however fully customise it to fit your internal needs. This means that you can also customize CHBToken to link into your internal CHBTPaygate solution.
 
 Development Process
 ===========================

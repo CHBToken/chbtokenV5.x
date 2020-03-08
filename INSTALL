@@ -1,0 +1,9 @@
+Building CHBToken
+
+See doc/readme-qt.rst for instructions on building CHBToken QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of CHBToken.
+
+See doc/build-*.txt for instructions on building chbtokend,
+the intended-for-services, no-graphical-interface, reference
+implementation of CHBToken.

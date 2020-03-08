@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SigningHelpDialog</class>
+ <widget class="QWidget" name="SigningHelpDialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>861</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CHBToken - Signing Help</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../bitcoin.qrc">:/images/header</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Signing and Document Upload Information for CHBToken</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-450</y>
+        <width>824</width>
+        <height>830</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Signing and Document Upload Information for CHBToken</string>   
+
+<string>**Can I pay directly with CHBToken?**
+Yes, for file signing and signing with document upload we charge in CHBToken.
+However, fees and charges are displayed in EUR so it is easier for users to understand the actual cost.
+Fees are charged as follows:
+- Signing only: 5.00 EUR
+- Document Upload and Signing: 10.00 EUR the first 10MB and 5 EUR per 10MB therafter
+For the document upload we calculate in 10MB blocks or part thereof. The maximum individual file size allowed is 1000MB.
+
+
+**I don't have CHBToken, can I still use the Service?**
+Yes, we have included the option to quickly and easily purchase CHBToken directly from within the wallet using your credit card. 
+Purchasing with a credit card simplifies the process of obtaining CHBToken as you do not need to sign up to a cryptocurrency exchange in order to purchase CHBToken.
+NOTE: When purchasing CHBToken with a credit card the CHBToken price charged is slightly higher than those listed on exchanges, this is to cover the fees to process your credit card transaction.
+However, when you take into consideration that exchanges almost always charge a transaction fee to fulfil your order and charge a separate withdrawal fee when you withdraw your CHBToken to your wallet you will see that the price you pay using your credit card directly is very competitive.
+
+
+**What is Signing?**
+Signing within CHBToken Blockchain allows you to have your document cryptographically signed by the CHBToken Blockchain with a digital signature.
+This signature provides an unalterable signature which can then be used to verify the authenticity of your document within the CHBToken Blockchain.
+As the signature is permanently embedded within the decentralised component of the CHBToken Blockchain it cannot be modified by a third party and serves as absolute proof that your document has not been modified.
+
+
+**What is Document Upload and Signing?**
+With the document upload and signing option your document is not just cryptographically signed but also uploaded and stored with the CHBTokenDoc Blockchain itself.
+The stored document is then directly linked to your transaction between CHBToken and the CHBTokenDoc Blockchain.
+The advantage here is that you no longer need to keep a local copy of the file on your computer (which may be a security risk) and are simply able to provide a person with the link to the signed document which then allows them to view the document.
+
+
+**Is my Document Safe in the CHBToken Blockchain?**
+When you Sign and Upload a document to the CHBToken Blockchain your document is encrypted and stored in a fully encrypted format.
+Only you have the private key for this document while the public key is stored on the public key server.
+If someone were to try to view your document without the correct key he/she will not be able to read the document due the file encryption.
+CHBToken and CHBTokenDoc Blockchain does not store documents in cleartext format.
+
+
+**Can I Re-Sign a Document?**
+There is no reason to re-sign a document unless you have changed the document and wish to update it.
+If you need to resign a document, it will be treated as a new version within the CHBTokenDoc Blockchain.
+If the document is also stored within CHBTokenDoc Blockchain you will also need to upload the new version and sign it.
+A signature is only valid for the specific document for which it has been created, subsequent versions are treated as unique documents.
+
+
+**Why is the Time Limited?**
+The timeframe for document signing and storage is limited as most government and legislative entities only require records to be keep for a maximum of 10 years.
+However, you always have the option to extend this period should you require longer.
+As the requirement to retain documents beyond 10 years is non-existent for most users, all documents and signatures older than 10 years are periodically removed from the CHBTokenDoc Blockchain.
+
+
+**Can I Prove the Authenticity of my Document to Others?**
+Yes, at any time within the validity period for your document you can provide a third party with a link to the document stored within CHBTokenDoc Blockchain.
+You can also provide a link to verify the signature if your document was signed but not uploaded.
+
+
+**Why do I need to Pay for this Service?**
+With a signing request or with a signing request and document upload you generate a certain amount of data which needs to be hosted on a server in a datacentre.
+The fee charged covers the costs to host and maintain these servers.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../bitcoin.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,2 @@
+debian/bin/chbtokend usr/bin
+src/chbtokend usr/lib/chbtoken

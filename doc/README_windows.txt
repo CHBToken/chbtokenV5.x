@@ -1,0 +1,16 @@
+CHBToken 5.0.0 
+
+
+Distributed under the MIT/X11 software license, see the accompanying
+file license.txt or http://www.opensource.org/licenses/mit-license.php.
+This product includes software developed by the OpenSSL Project for use in
+the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
+cryptographic software written by Eric Young (eay@cryptsoft.com).
+
+
+Intro
+-----
+CHBToken is a free open source project derived from Bitcoin, with
+the goal of providing a long-term energy-efficient scrypt-based crypto-currency.
+CHBToken is proof-of-stake for crypto-currency and custom chain for secure document storage,
+to help further advance the field of crypto-currency.

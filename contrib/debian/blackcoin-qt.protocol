@@ -1,0 +1,11 @@
+[Protocol]
+exec=chbtoken-qt '%u'
+protocol=chbtoken
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
