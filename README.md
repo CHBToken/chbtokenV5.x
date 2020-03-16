@@ -14,6 +14,7 @@ CHBToken Overview
 ===========================
 *  **Initial Amount:** 2.5 Million CHBToken only
 *  **Increase:** 0.06 CHBToken per successful stake
+*  **Transaction Fee:** 0.0001 CHBT
 *  **Block time:** 60 seconds
 *  **Type:** PoS Coin
 *  **Maturity:** 501 blocks
